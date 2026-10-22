@@ -1,0 +1,58 @@
+body{
+            background-color: rgb(236, 214, 255);
+           
+        }
+        .table{
+            width: 400px;
+            border-style: none;
+            background-color: rgb(255, 255, 255);
+            margin: auto;
+            margin-top: 150px;
+            box-shadow: -5 5 10 30;
+            
+        }
+            
+        h2{
+            text-align: center;
+            color: blueviolet;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            padding-top: 20px;
+            margin-bottom: 0;
+
+        }
+         
+         .sign{
+            padding: 20px;
+         }
+         .btn{
+            background-color: blueviolet;
+            color: azure;
+         }
+         .textbox{
+            width: 100%;
+            height: 20px;
+            margin: 0;
+            box-sizing: border-box;
+         }
+         .sign a{
+            text-decoration: none;
+            color: #E18FFA;
+        }
+        .sign a:hover{
+            color: crimson;
+        }
+        .option{
+            display: flex;
+            padding-top: 20px;
+            justify-content: space-between;
+        }
+        .text{
+            text-align: center;
+        }
+        .drop{
+            width: 100%;
+            height:20px;
+            background-color: whitesmoke;
+            
+        }

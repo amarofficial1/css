@@ -1,0 +1,46 @@
+body{
+            background-color: rgb(236, 214, 255);
+           
+        }
+        .table{
+            width: 300px;
+            border-style: none;
+            background-color: rgb(255, 255, 255);
+            margin: auto;
+            margin-top: 200px;
+        h2{
+            text-align: center;
+            color: blueviolet;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            padding-top: 30px;
+            margin-bottom: 1px;
+        }
+         
+         }
+         .login{
+            padding: 20px;
+         }
+         .btn{
+            background-color: blueviolet;
+            color: azure;
+         }
+         .textbox{
+            width: 230px;
+            height: 20px;
+         }
+         .login a{
+            text-decoration: none;
+            color: #E18FFA;
+        }
+        .login a:hover{
+            color: crimson;
+        }
+        .option{
+            display: flex;
+            padding-top: 20px;
+            justify-content: space-between;
+        }
+        .text{
+            text-align: center;
+        }

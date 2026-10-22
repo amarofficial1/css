@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Course</title>
+    <link rel="stylesheet" href="./stylecss/update.css">
+</head>
+<body>
+    <form action="./">
+    <div class="nav">
+    <img src="./kbalogo.png" alt="kba logo" width="30" height="30">
+    <ul>
+        <li><a href="./homepage.html">Home</a></li>
+        <li><a href="">Courses</a></li>
+        <li><a href="">Contact us</a></li>
+        <li><a href="./addcourse.html">Addcourse</a></li>
+        <li><a href="./login.html">Logout</a></li>
+    </ul>
+    </div>
+    <div class="main">
+        <h2>Update Course</h2>
+        <h4>Course Name</h4>
+        <input type="text" placeholder="s122" required>
+        <h4>Course Type</h4>
+        <select name="course">
+            <option value="hybrid">Hybrid</option>
+            <option value="self-paced">Self-Paced</option>
+            <option value="tutor">Tutor</option>
+        </select>
+        <h4>Description</h4>
+        <textarea rows="5" cols="20" placeholder="11q"></textarea>
+        <h4>Price</h4>
+        <select name="Price">
+            <option value="15000">Rs.15000</option>
+            <option value="20000">Rs.20000</option>
+            <option value="30000">Rs.30000</option>
+        </select>
+        <input type="submit" value="Update Course" class="submit">
+    </div>
+    
+</form>
+</body>
+</html>

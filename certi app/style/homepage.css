@@ -1,0 +1,64 @@
+body{
+    background-color: whitesmoke;
+    border-top: 0;
+}
+
+
+.nav{
+display: flex;
+justify-content: end;
+}
+.nav ul{
+     list-style: none;
+     display: flex;
+     margin: 0;
+}
+.nav a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+.main{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    
+}
+.main img{
+    width:100px;
+    height:100px;
+    margin-bottom: 60px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button input{
+    padding: 10px;
+    margin: 0px 5px;
+}
+.bt1{
+    border-color: rgb(29, 134, 255);
+
+}
+.bt2{
+    background-color: rgb(32, 185, 185);
+    color: white;
+    border-style: none;
+    width:80px;
+}
+.bt2:hover{
+    color: crimson;
+}
+.home{
+    background-color: blue;
+    color: white;
+}
+.nav a:hover{
+    color: crimson;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addcourse</title>
+    <link rel="stylesheet" href="./stylecss/addcoursestyle.css">
+</head>
+<body>
+    <div class="nav">
+    <img src="./kbalogo.png" alt="kba logo" width="30" height="30">
+    <ul>
+        <li><a href="./homepage.html">Home</a></li>
+        <li><a href="">Courses</a></li>
+        <li><a href="">Contact us</a></li>
+        <li><a href="./addcourse.html">Addcourse</a></li>
+        <li><a href="./login.html">Logout</a></li>
+    </ul>
+    </div>
+    <div class="form1">
+        <form action="">
+        <h2>Add Course</h2>
+        <h3>Course Name</h3>
+        <input type="text" placeholder="eg.Certified Blockchain Associate" required class="text">
+        <h3>Course Id</h3>
+        <input type="number" placeholder="eg.1" required class="text">
+        <h3>Course Type</h3>
+        <select name="course">
+            <option value="self paced">Self-paced</option>
+            <option value="Tutor">Tutor</option>
+        </select>
+        <h3>Description</h3>
+        <textarea cols="30" rows="10" placeholder="Small description on the course"></textarea>
+        <h3>Price</h3>
+        <select name="price">
+            <option value="5000">Rs.5000</option>
+            <option value="15000">Rs.15000</option>
+            <option value="25000">Rs.25000</option>
+        </select>
+        <input type="submit" value="Add Course" class="button">
+        </form>
+    </div>
+</body>
+</html>

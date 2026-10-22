@@ -1,0 +1,97 @@
+body{
+            margin:0;
+        }
+        .nav{
+            background-color: rgb(236, 214, 255);
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav img{
+         padding: 10px;
+         
+        }
+        .nav ul{
+            list-style: none;
+            display: flex;
+        }
+        .nav a{
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        .form1{
+             background-color: rgb(236, 214, 255);
+             width: 500px;
+             margin: auto;
+             margin-top: 10px;
+             padding: 20px;
+        }
+        .mainheading{
+            background-color:  rgb(236, 214, 255);
+            text-align: center;
+        }
+        h5{
+            color: blueviolet;
+            margin: 0;
+        
+        }
+        h2{
+            color: rgb(121, 30, 206);
+            margin-bottom: 10px;
+            margin-top: 1px;
+        }
+        .secondheading{
+            background-color:  rgb(236, 214, 255);
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        h1{
+            color: rgb(116, 41, 187);
+            margin-bottom: 10px;
+        
+        }
+        h4{
+            margin:0;
+            text-align: center;
+        }
+        .logobox{
+            background-color: rgb(236, 214, 255);
+            margin: 20px;
+            width:300px;
+            padding:10px;
+            color: blueviolet;
+            
+
+        }
+        .logo{
+        text-align: center;
+        color: rgb(99, 18, 175);
+        }
+        .logobox img{
+            margin: auto;
+        }
+        .box2{
+            display: grid;
+            padding:10px
+        }
+        .button{
+            width: 90px;
+            color: white;
+            background-color: blueviolet;
+            border-radius: 2px;
+        }
+        .box3{
+            color: white;
+            background-color: blueviolet;
+            border-radius: 20px;
+            margin: auto;
+            margin-left: 700px;
+            padding:10px 50px;
+        }
+        .box3:hover{
+            color: crimson;
+        }
+        .button:hover{
+            color: crimson;
+        }

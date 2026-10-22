@@ -1,0 +1,97 @@
+body{
+            margin:0;
+        }
+        .nav{
+            background-color: rgb(236, 214, 255);
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav img{
+         padding: 10px;
+         
+        }
+        .nav ul{
+            list-style: none;
+            display: flex;
+        }
+        .nav a{
+            text-decoration: none;
+            padding: 10px;
+        }
+        .nav a:hover{
+            color: crimson;
+        }
+        .b1{
+            width: 500px;
+            margin: auto;
+            margin-top: 50px;
+        }
+        .b2{
+            background-color: rgb(234, 212, 255);
+            width: 500px;
+            padding: 10px;
+        }
+        .img2{
+            width:100px;
+            height:100px;
+            margin-top: 10px;
+        }
+        .right{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+
+        }
+        .addtocart{
+            width: 90px;
+            height: 25px;
+            margin-left: 10px;
+            background-color: blueviolet;
+            color: white;
+        }
+        .addtocart:hover{
+            color: crimson;
+        }
+        .right2{
+            display: flex;
+        }
+        h3{
+            margin:0;
+            color: blueviolet;
+        }
+        h4{
+            color: blueviolet;
+            margin:10px 0;
+            
+        }
+        ul{
+           padding-left: 20px;
+        }
+        .rs{
+            color: crimson;
+        }
+        .last{
+            display: flex;
+            justify-content: end;
+            margin-right: 250px;
+            
+        }
+        .last2{
+            background-color: rgb(1, 103, 255);
+            color: white;
+            border-radius: 40px;
+            padding: 5px;
+            margin-right: 10px;
+        }
+        .last3{
+            background-color: crimson;
+            color: white;
+            border-radius: 40px;
+            padding: 5px;
+        }
+        .last2:hover{
+            background-color: black;
+        }
+        .last3:hover{
+            background-color: black;
+        }

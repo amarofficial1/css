@@ -1,0 +1,30 @@
+.outbox{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: black;
+    padding-top: 20px;
+    padding: 20PX;
+    
+
+}
+.innerbox{
+    width: 560px;
+    height: 70px;
+    margin: auto;
+    border: solid white 2px;
+    margin: 20px;
+    box-sizing: border-box;
+    border-width: 10px;
+}
+.screen{
+    background-color: rgba(228, 228, 228, 0.667);
+    width: 541px;
+    height: 51px;
+    font-family: sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}

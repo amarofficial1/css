@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+.nav{
+    width: 100%;
+    background-color: white;
+}
+.b1{
+    position: absolute;
+    right: 10px;}
+    
+    .nav1{
+    width: 100%;
+    background-color: white;
+    position: relative;
+    margin-top: 20px;
+    }
+
+
+.b2{
+    position: absolute;
+    right: 20px;
+}
+

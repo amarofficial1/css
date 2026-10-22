@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue Certificate</title>
+    <link rel="stylesheet" href="./style/issuecertificate.css">
+</head>
+<body>
+<form action="./ViewCertificate.html">
+    <div class="nav">
+        <h2>Certificate Dapp</h2>
+        <ul>
+            <li><a href="./homepage.html">Home</a></li>
+            <li class="link"><a href="./issue certificate.html">Issue certificate</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <h1>Issue New Certificate</h1>
+        <h3>Select Course*</h3>
+        <select name="courses" class="hey">
+            <option value="blockchain associate">Certified Blockchain Associate</option>
+            <option value="cyber associate">Certified Cyber Associate</option>
+            <option value="mern associate">Certified MERN Associate</option>
+        </select>
+        <h3>Certificate ID*</h3>
+        <input type="text" placeholder="Certificate ID" required class="hey">
+        <h3>Candidate name*</h3>
+        <input type="text" placeholder="Name" required class="hey">
+        <h3>Select Grade*</h3>
+        <select name="grade" class="hey">
+            <option value="s">S</option>
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="c"></option>
+        </select>
+        <h3>Issue Date*</h3>
+        <input type="date" required class="hey">
+        <div class="btn">
+        <input type="Submit" value="Issue Certificate"></div>
+    </div>
+</form>
+</body>
+</html>

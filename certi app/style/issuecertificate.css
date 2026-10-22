@@ -1,0 +1,63 @@
+body{
+    background-color: whitesmoke;
+    margin-top: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+.nav a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.main{
+    border: solid 1px;
+    width: 900px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+}
+.main h1{
+    margin: 0;
+}
+.main h3{
+    margin: 0;
+    margin-top: 20px;
+}
+.main select{
+    width: 500px;
+    height: 30px;
+}
+.main input{
+    width: 500px;
+    height: 30px;
+}
+.btn{
+    margin-top: 20px;
+}
+.btn input{
+    width: auto;
+    background-color: rgb(22, 169, 233);
+    border-style: none;
+    border-radius: 5px;
+}
+.btn input:hover{
+    color: crimson;
+    opacity: 80%;
+}
+.link a{
+    background-color: blue;
+    color: white;
+}
+.nav a:hover{
+    color: crimson;
+}
+.hey{
+    box-sizing: border-box;
+}
